@@ -1,24 +1,61 @@
-# Blog-App
+## Blog Web Application
+This is a simple Blog Web Application built using Node.js, Express.js, and EJS. The application allows users to create and view blog posts. The posts do not persist between sessions as this version does not use a database. The project emphasizes styling to create a visually appealing and responsive user interface, including features like animated gradient backgrounds and 3D effects.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a><img>
-
-
-This is a simple frontend project which is built while learning full-stack web development by Dr.Angela yu the course is called  [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) this is the best-seller course in web development on Udemy
-
-## installaion 
+## Features
+Create and view blog posts.
+Posts are not persisted between sessions.
+Responsive design for mobile, tablet, and desktop views.
+Animated purple gradient background with moving shades.
+Modern and user-friendly UI styling with 3D hover effects.
+## Technologies Used
+Node.js: JavaScript runtime environment.
+Express.js: Web framework for Node.js.
+EJS (Embedded JavaScript): Templating engine for rendering views.
+CSS: For styling, including animations and responsive design.
+## Project Structure
+```bash
+Copy code
+├── public
+│   └── styles.css      # Stylesheet for the application
+├── views
+│   ├── index.ejs       # Main EJS template for displaying blog posts and form
+│   └── layout.ejs      # Layout file for consistent header/footer
+├── app.js              # Main application file (Express.js server)
+├── package.json        # Project dependencies and metadata
+└── README.md           # Project documentation
 ```
+## Setup Instructions
+Clone the repository:
+
+```bash
+Copy code
+git clone https://github.com/RoyShubham07/blog-web-app.git
+```
+Navigate to the project directory:
+
+```bash
+Copy code
+cd blog-web-app
+```
+## Install dependencies:
+
+Make sure you have Node.js installed. Then run:
+
+```bash
+Copy code
 npm install
 ```
+Start the server:
+
+Run the following command to start the application:
+
+```bash
+Copy code
+node app.js
+```
+View the application:
+
+Open your browser and go to http://localhost:3000 to view the blog.
+
 ## Screenshot
-![Screenshot 2024-10-11 005225](https://github.com/user-attachments/assets/18e9c2e7-0031-442d-9f5f-5a3aa982da28)
-
-
-## what i learn
-1. node
-2. express
-3. ejs
-4. templating in ejs
-5. rendering dynamic pages
-
-
+![Screenshot 2024-10-11 005225](https://github.com/user-attachments/assets/2344117d-be9b-4137-b00c-1edb0b7afbda)
