@@ -17,3 +17,5 @@ npm install
 3. ejs
 4. templating in ejs
 5. rendering dynamic pages
+
+[Result](http://localhost:3000/new-post)
