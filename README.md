@@ -1,4 +1,4 @@
-## Blog Web Application
+# Blog Web Application
 This is a simple Blog Web Application built using Node.js, Express.js, and EJS. The application allows users to create and view blog posts. The posts do not persist between sessions as this version does not use a database. The project emphasizes styling to create a visually appealing and responsive user interface, including features like animated gradient backgrounds and 3D effects.
 
 ## Features
@@ -27,12 +27,12 @@ CSS: For styling, including animations and responsive design.
 Clone the repository:
 
 ```bash
-git clone https://github.com/RoyShubham07/blog-web-app.git
+git clone https://github.com/RoyShubham07/Blog-web-App.git
 ```
 Navigate to the project directory:
 
 ```bash
-cd blog-web-app
+cd Blog-web-App
 ```
 ## Install dependencies:
 
