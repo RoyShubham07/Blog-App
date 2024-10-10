@@ -10,6 +10,8 @@ This is a simple frontend project which is built while learning full-stack web d
 ```
 npm install
 ```
+## Result
+[Result](http://localhost:3000/new-post)
 
 ## what i learn
 1. node
@@ -18,4 +20,4 @@ npm install
 4. templating in ejs
 5. rendering dynamic pages
 
-[Result](http://localhost:3000/new-post)
+
