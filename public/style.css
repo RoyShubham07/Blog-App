@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #f0f0f0; /* Light text color for contrast */
+    overflow: hidden; /* Prevent scrolling for full screen animation */
+    background: linear-gradient(270deg, #8e44ad, #3498db, #8e44ad); /* Base gradient */
+    background-size: 300% 300%; /* For animation effect */
+    animation: gradientAnimation 15s ease infinite; /* Animation */
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1 {
+    color: #ecf0f1;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 36px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation link */
+a {
+    text-decoration: none;
+    color: #3498db;
+    background-color: rgba(236, 240, 241, 0.8);
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #2980b9;
+    color: white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Blog Post Container */
+.post {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 20px;
+    margin: 20px 0;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    transform: perspective(1000px) rotateX(0);
+}
+
+.post:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    transform: perspective(1000px) rotateX(10deg);
+}
+
+/* Post Titles */
+.post h2 {
+    color: #ecf0f1;
+    margin-bottom: 10px;
+    font-size: 28px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Post Content */
+.post p {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #bdc3c7; /* Light grey text for readability */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(236, 240, 241, 0.2); /* Semi-transparent form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ecf0f1; /* Light text color */
+}
+
+input[type="text"], textarea {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus, textarea:focus {
+    box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    transform: translateY(-3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .post {
+        width: 80%; /* Increase width for smaller screens */
+    }
+
+    form {
+        width: 80%; /* Increase width for forms on smaller screens */
+    }
+
+    h1 {
+        font-size: 28px; /* Smaller title font size */
+    }
+
+    .post h2 {
+        font-size: 24px; /* Smaller post title font size */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px; /* Add some padding on small screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Further reduce title size */
+    }
+
+    .post h2 {
+        font-size: 22px; /* Further reduce post title size */
+    }
+
+    input[type="text"], textarea {
+        font-size: 14px; /* Smaller input text size */
+    }
+
+    button {
+        font-size: 16px; /* Smaller button text size */
+    }
+}
