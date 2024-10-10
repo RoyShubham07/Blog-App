@@ -10,8 +10,9 @@ This is a simple frontend project which is built while learning full-stack web d
 ```
 npm install
 ```
-## Result
-[Result](http://localhost:3000/new-post)
+## Screenshot
+![Screenshot 2024-10-11 005225](https://github.com/user-attachments/assets/18e9c2e7-0031-442d-9f5f-5a3aa982da28)
+
 
 ## what i learn
 1. node
