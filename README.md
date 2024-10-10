@@ -14,7 +14,6 @@ EJS (Embedded JavaScript): Templating engine for rendering views.
 CSS: For styling, including animations and responsive design.
 ## Project Structure
 ```bash
-Copy code
 ├── public
 │   └── styles.css      # Stylesheet for the application
 ├── views
@@ -28,13 +27,11 @@ Copy code
 Clone the repository:
 
 ```bash
-Copy code
 git clone https://github.com/RoyShubham07/blog-web-app.git
 ```
 Navigate to the project directory:
 
 ```bash
-Copy code
 cd blog-web-app
 ```
 ## Install dependencies:
@@ -42,7 +39,6 @@ cd blog-web-app
 Make sure you have Node.js installed. Then run:
 
 ```bash
-Copy code
 npm install
 ```
 Start the server:
@@ -50,7 +46,6 @@ Start the server:
 Run the following command to start the application:
 
 ```bash
-Copy code
 node app.js
 ```
 View the application:
