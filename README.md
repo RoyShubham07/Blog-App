@@ -9,8 +9,11 @@ Animated purple gradient background with moving shades.
 Modern and user-friendly UI styling with 3D hover effects.
 ## Technologies Used
 Node.js: JavaScript runtime environment.
+
 Express.js: Web framework for Node.js.
+
 EJS (Embedded JavaScript): Templating engine for rendering views.
+
 CSS: For styling, including animations and responsive design.
 ## Project Structure
 ```bash
